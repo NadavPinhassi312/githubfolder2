@@ -1,0 +1,1 @@
+This is a new branch file, it is only avilable in the new branch called new-branch.
