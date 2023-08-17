@@ -14,7 +14,8 @@ git restore <filename> / git checkout -- <filename> - undeletes a file
 git checkout -b "branchname" - creates a new branch and names it "branchname"
 git branch - shows all the branches and which one your'e on
 git checkout "branchname" - moves to branch "branchname"
-
+git branch -d "branchname" - deletes branch
+ 
 git merge "branchname" - merges "branchname" into the branch you're in currently
 
 git log - allows you to watch the commit history
