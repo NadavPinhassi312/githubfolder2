@@ -32,3 +32,5 @@ git clean -f -x - removes all of the current untracked files from git
 touch filename.ext - opens a new empty file
 
 git commit --amend - allows you to edit commit messages
+
+git mv OLD-FILENAME NEW-FILENAME - changes object's title
