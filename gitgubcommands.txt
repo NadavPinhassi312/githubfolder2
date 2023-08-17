@@ -1,0 +1,34 @@
+Pushing a Commit:
+1. make a change in the relevant file
+2. git add filename
+3. git commit -m "Commit message"
+4. git push origin branchname
+
+Valuable Commands:
+git status - gets the status of the current commit
+
+git rm <filename> - removes a file from the repository
+git restore --staged <filename> - unstages a file
+git restore <filename> / git checkout -- <filename> - undeletes a file
+
+git checkout -b "branchname" - creates a new branch and names it "branchname"
+git branch - shows all the branches and which one your'e on
+git checkout "branchname" - moves to branch "branchname"
+
+git merge "branchname" - merges "branchname" into the branch you're in currently
+
+git log - allows you to watch the commit history
+"J" - will move you down
+"K" - will move you up
+"Q" - quit the commit history
+
+git pull origin master - pulls the latest updates from github
+git fetch origin master - downloads the updates but does not apply them 
+
+git diff filename.ext - shows the differences between the pre-edited file and the edited file
+
+git clean -f -x - removes all of the current untracked files from git
+
+touch filename.ext - opens a new empty file
+
+git commit --amend - allows you to edit commit messages
