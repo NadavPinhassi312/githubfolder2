@@ -22,6 +22,7 @@ git log - allows you to watch the commit history
 "J" - will move you down
 "K" - will move you up
 "Q" - quit the commit history
+git log --oneline - shows you the log info in one line
 
 git pull origin master - pulls the latest updates from github
 git fetch origin master - downloads the updates but does not apply them 
@@ -35,3 +36,6 @@ touch filename.ext - opens a new empty file
 git commit --amend - allows you to edit commit messages
 
 git mv OLD-FILENAME NEW-FILENAME - changes object's title
+
+git reset --hard commitID - brings the repository back to said commitID and deletes the file
+git reset --soft commitID - brings the repository back to said commitID and stages file 
