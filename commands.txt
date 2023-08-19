@@ -47,3 +47,6 @@ git stash - saves your work but doesnt apply it, undeleted but uncommited
 git stash list - brings up the list of the stashes you have
 git stash apply - brings the work from the attic and makes it unstaged
 git stash drop - drops your stash
+
+git tag "tagname" - sets a new tag with the tagname given
+git tag - shows the tag list
