@@ -27,7 +27,7 @@ git log --oneline - shows you the log info in one line
 git pull origin master - pulls the latest updates from github
 git fetch origin master - downloads the updates but does not apply them 
 
-git diff filename.ext - shows the differences between the pre-edited file and the edited file
+git diff - shows the differences between the pre-edited file and the edited file
 
 git clean -f -x - removes all of the current untracked files from git
 
@@ -42,3 +42,8 @@ git reset --soft commitID - brings the repository back to said commitID and stag
 
 git push origin main --force - when you do a hard reset and want to delete a commit thats been pushed - 
 you can force a push and overwrite the code in github. Not recommeded but optional.
+
+git stash - saves your work but doesnt apply it, undeleted but uncommited
+git stash list - brings up the list of the stashes you have
+git stash apply - brings the work from the attic and makes it unstaged
+git stash drop - drops your stash
