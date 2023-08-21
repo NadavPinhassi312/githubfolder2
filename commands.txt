@@ -50,3 +50,6 @@ git stash drop - drops your stash
 
 git tag "tagname" - sets a new tag with the tagname given
 git tag - shows the tag list
+git push origin --tags - pushes the unpushed tags
+git tag -d "tagname" - deletes said tag
+git push origin --delete - pushed the removal
