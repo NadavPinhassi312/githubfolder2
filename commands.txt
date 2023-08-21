@@ -50,3 +50,5 @@ git stash drop - drops your stash
 
 git tag "tagname" - sets a new tag with the tagname given
 git tag - shows the tag list
+
+code . - opens the repository in the code editor
